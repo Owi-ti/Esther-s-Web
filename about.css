@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 50%;
+    background-position: 50%;
+    background-size: cover;
+
+
+}
+  
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+nav{
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top:  25px;
+    position: relative;
+    
+}
+nav a {
+    color: rgb(255, 51, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover{
+     color: blue;
+
+}
+ nav a::before{
+     content: "";
+     display: block;
+     height: 5px;
+     background-color: darkorchid;
+     position: absolute;
+     bottom: 0;
+     width: 0;
+     transition: all ease-in-out 250ms;
+
+
+ }
+ nav a:hover::before{
+    width: 100%;
+ }
+
+table{
+    width: 500px;
+    height: 300px;
+    
+
+}
+th, caption{
+    text-align: center;
+    
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 10px;
+    
+}
+tr:nth-child(even){
+    background-color: rgb(209, 200, 212);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(105, 104, 112);
+}
+
