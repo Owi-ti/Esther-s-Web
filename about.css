@@ -63,18 +63,20 @@ nav a:hover{
 }
 
 table{
-    width: 500px;
+    width: 1000px;
     height: 300px;
-    
+    padding-left: 20%;
 
 }
 th, caption{
     text-align: center;
+    padding-left: 300px;
+    font-size: larger;
     
 }
 table, th, td {
     border: 1px solid white;
-    border-collapse: collapse;
+
 
 }
 th, td {
