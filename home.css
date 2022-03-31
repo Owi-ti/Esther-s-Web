@@ -2,11 +2,10 @@ body{
     margin: 0px;
     background-image: url(tamanna-rumee-cvq_8XHp2rM-unsplash.jpg);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 100;
+    font-weight: 50%;
     background-position: 100;
     background-size: cover;
 }
-
 
 .container{
     width: 90%;
@@ -29,41 +28,46 @@ nav li {
     
 }
 nav a {
-    color: rgb(255, 51, 0);
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 30px;
+    
+    
 }
 nav a:hover{
-     color: blue;
+     color: black;
+    
 
 }
- nav a::before{
-     content: "";
-     display: block;
-     height: 5px;
-     background-color: darkorchid;
-     position: absolute;
-     bottom: 0;
-     width: 0;
-     transition: all ease-in-out 250ms;
-
-
- }
+nav a::before{
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: rgb(252, 8, 0);
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    transition: all ease-in-out 250ms;
+}
  nav a:hover::before{
     width: 100%;
  }
-h2{
-    color: blue;
-    font-size: large;
-    align-items:center;
+ h2{
+    color: black;
+    font-size: 50px;
+    align-items: center;
+    margin: 0 ;
+    padding: 3px;
+    
 
 
 }
 p{
     text-decoration-color: black;
-    font-size: 30px;
+    font-size: 40px;
     text-align:center;  
     margin-top: 40%;
+    font-style: italic;
 
 }
